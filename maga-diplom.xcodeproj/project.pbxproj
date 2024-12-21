@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7D75A52D00A31B0053D6A3 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75A42D00A31B0053D6A3 /* Coordinatable.swift */; };
+		3E7D75A72D00A34F0053D6A3 /* SetABCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75A62D00A34F0053D6A3 /* SetABCoordinator.swift */; };
+		3E7D75A92D00ADD70053D6A3 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75A82D00ADD70053D6A3 /* Scenario.swift */; };
+		3E7D75AB2D00BB9E0053D6A3 /* RouteShowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75AA2D00BB9E0053D6A3 /* RouteShowerViewController.swift */; };
+		3E7D75AD2D00F5500053D6A3 /* DebugMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75AC2D00F5500053D6A3 /* DebugMenuViewController.swift */; };
+		3E7D75AF2D0106570053D6A3 /* ManyPointsRouteShowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75AE2D0106570053D6A3 /* ManyPointsRouteShowerViewController.swift */; };
+		3E7D75B12D0109FF0053D6A3 /* ManyPointsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75B02D0109FF0053D6A3 /* ManyPointsCoordinator.swift */; };
+		3E7D75B32D01191D0053D6A3 /* RouteViewControllerScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75B22D01191D0053D6A3 /* RouteViewControllerScenario.swift */; };
+		3E7D75B62D01693E0053D6A3 /* AlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3E7D75B52D01693E0053D6A3 /* AlertKit */; };
+		3E7D75B82D016A480053D6A3 /* ClientCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75B72D016A480053D6A3 /* ClientCoordinator.swift */; };
+		3E7D75BC2D016A950053D6A3 /* LoaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75BA2D016A950053D6A3 /* LoaderOverlayView.swift */; };
+		3E7D75BD2D016A950053D6A3 /* LoaderOverlayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75BB2D016A950053D6A3 /* LoaderOverlayProvider.swift */; };
+		3E7D75BF2D0171E80053D6A3 /* ClosableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75BE2D0171E80053D6A3 /* ClosableNavigationController.swift */; };
+		3E7D75C12D01753A0053D6A3 /* AdminCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D75C02D01753A0053D6A3 /* AdminCoordinator.swift */; };
+		3E9DF7352CE536B60055FBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DF7342CE536B60055FBA2 /* AppDelegate.swift */; };
+		3E9DF73E2CE536B70055FBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DF73D2CE536B70055FBA2 /* Assets.xcassets */; };
+		3E9DF7412CE536B70055FBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DF73F2CE536B70055FBA2 /* LaunchScreen.storyboard */; };
+		3E9DF74A2CE5371D0055FBA2 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3E9DF7492CE5371D0055FBA2 /* GoogleMaps */; };
+		3E9DF74C2CE53AB40055FBA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DF74B2CE53AB40055FBA2 /* ViewController.swift */; };
+		3E9DF74E2CE679A40055FBA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DF74D2CE679A40055FBA2 /* Constants.swift */; };
+		3EAD5F522CEE821200A412B9 /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F512CEE821200A412B9 /* SignView.swift */; };
+		3EAD5F542CEE83CB00A412B9 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F532CEE83CB00A412B9 /* MainMenuView.swift */; };
+		3EAD5F562CEE845500A412B9 /* RouteDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F552CEE845500A412B9 /* RouteDataView.swift */; };
+		3EAD5F582CEE8A5600A412B9 /* SpecialPointDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F572CEE8A5600A412B9 /* SpecialPointDataView.swift */; };
+		3EAD5F5A2CEE8B2000A412B9 /* SetPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F592CEE8B2000A412B9 /* SetPointViewController.swift */; };
+		3EAD5F622CEFC2C000A412B9 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F612CEFC2C000A412B9 /* RouteViewController.swift */; };
+		3EAD5F682CF21B6E00A412B9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD5F672CF21B6E00A412B9 /* DashboardViewController.swift */; };
+		3EB6CD222CF23A0B00997138 /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6CD212CF23A0B00997138 /* ViewControllerRepresentable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E7D75A42D00A31B0053D6A3 /* Coordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		3E7D75A62D00A34F0053D6A3 /* SetABCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetABCoordinator.swift; sourceTree = "<group>"; };
+		3E7D75A82D00ADD70053D6A3 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		3E7D75AA2D00BB9E0053D6A3 /* RouteShowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteShowerViewController.swift; sourceTree = "<group>"; };
+		3E7D75AC2D00F5500053D6A3 /* DebugMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugMenuViewController.swift; sourceTree = "<group>"; };
+		3E7D75AE2D0106570053D6A3 /* ManyPointsRouteShowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyPointsRouteShowerViewController.swift; sourceTree = "<group>"; };
+		3E7D75B02D0109FF0053D6A3 /* ManyPointsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyPointsCoordinator.swift; sourceTree = "<group>"; };
+		3E7D75B22D01191D0053D6A3 /* RouteViewControllerScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewControllerScenario.swift; sourceTree = "<group>"; };
+		3E7D75B72D016A480053D6A3 /* ClientCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCoordinator.swift; sourceTree = "<group>"; };
+		3E7D75BA2D016A950053D6A3 /* LoaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderOverlayView.swift; sourceTree = "<group>"; };
+		3E7D75BB2D016A950053D6A3 /* LoaderOverlayProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderOverlayProvider.swift; sourceTree = "<group>"; };
+		3E7D75BE2D0171E80053D6A3 /* ClosableNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosableNavigationController.swift; sourceTree = "<group>"; };
+		3E7D75C02D01753A0053D6A3 /* AdminCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCoordinator.swift; sourceTree = "<group>"; };
+		3E9DF7312CE536B60055FBA2 /* maga-diplom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maga-diplom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9DF7342CE536B60055FBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E9DF73D2CE536B70055FBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E9DF7402CE536B70055FBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E9DF7422CE536B70055FBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9DF74B2CE53AB40055FBA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E9DF74D2CE679A40055FBA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3EAD5F512CEE821200A412B9 /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		3EAD5F532CEE83CB00A412B9 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		3EAD5F552CEE845500A412B9 /* RouteDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDataView.swift; sourceTree = "<group>"; };
+		3EAD5F572CEE8A5600A412B9 /* SpecialPointDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialPointDataView.swift; sourceTree = "<group>"; };
+		3EAD5F592CEE8B2000A412B9 /* SetPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPointViewController.swift; sourceTree = "<group>"; };
+		3EAD5F612CEFC2C000A412B9 /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		3EAD5F672CF21B6E00A412B9 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		3EB6CD212CF23A0B00997138 /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9DF72E2CE536B60055FBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7D75B62D01693E0053D6A3 /* AlertKit in Frameworks */,
+				3E9DF74A2CE5371D0055FBA2 /* GoogleMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7D75B92D016A950053D6A3 /* LoaderOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D75BA2D016A950053D6A3 /* LoaderOverlayView.swift */,
+				3E7D75BB2D016A950053D6A3 /* LoaderOverlayProvider.swift */,
+			);
+			path = LoaderOverlay;
+			sourceTree = "<group>";
+		};
+		3E9DF7282CE536B60055FBA2 = {
+			isa = PBXGroup;
+			children = (
+				3E9DF7332CE536B60055FBA2 /* maga-diplom */,
+				3E9DF7322CE536B60055FBA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E9DF7322CE536B60055FBA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E9DF7312CE536B60055FBA2 /* maga-diplom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9DF7332CE536B60055FBA2 /* maga-diplom */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D75B92D016A950053D6A3 /* LoaderOverlay */,
+				3E9DF7342CE536B60055FBA2 /* AppDelegate.swift */,
+				3E9DF74D2CE679A40055FBA2 /* Constants.swift */,
+				3E9DF74B2CE53AB40055FBA2 /* ViewController.swift */,
+				3E9DF73D2CE536B70055FBA2 /* Assets.xcassets */,
+				3E9DF73F2CE536B70055FBA2 /* LaunchScreen.storyboard */,
+				3E9DF7422CE536B70055FBA2 /* Info.plist */,
+				3EAD5F512CEE821200A412B9 /* SignView.swift */,
+				3EAD5F532CEE83CB00A412B9 /* MainMenuView.swift */,
+				3EAD5F592CEE8B2000A412B9 /* SetPointViewController.swift */,
+				3E7D75AA2D00BB9E0053D6A3 /* RouteShowerViewController.swift */,
+				3EAD5F552CEE845500A412B9 /* RouteDataView.swift */,
+				3EAD5F572CEE8A5600A412B9 /* SpecialPointDataView.swift */,
+				3EAD5F612CEFC2C000A412B9 /* RouteViewController.swift */,
+				3EAD5F672CF21B6E00A412B9 /* DashboardViewController.swift */,
+				3EB6CD212CF23A0B00997138 /* ViewControllerRepresentable.swift */,
+				3E7D75A42D00A31B0053D6A3 /* Coordinatable.swift */,
+				3E7D75A62D00A34F0053D6A3 /* SetABCoordinator.swift */,
+				3E7D75A82D00ADD70053D6A3 /* Scenario.swift */,
+				3E7D75AC2D00F5500053D6A3 /* DebugMenuViewController.swift */,
+				3E7D75AE2D0106570053D6A3 /* ManyPointsRouteShowerViewController.swift */,
+				3E7D75B02D0109FF0053D6A3 /* ManyPointsCoordinator.swift */,
+				3E7D75B22D01191D0053D6A3 /* RouteViewControllerScenario.swift */,
+				3E7D75B72D016A480053D6A3 /* ClientCoordinator.swift */,
+				3E7D75BE2D0171E80053D6A3 /* ClosableNavigationController.swift */,
+				3E7D75C02D01753A0053D6A3 /* AdminCoordinator.swift */,
+			);
+			path = "maga-diplom";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E9DF7302CE536B60055FBA2 /* maga-diplom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9DF7452CE536B70055FBA2 /* Build configuration list for PBXNativeTarget "maga-diplom" */;
+			buildPhases = (
+				3E9DF72D2CE536B60055FBA2 /* Sources */,
+				3E9DF72E2CE536B60055FBA2 /* Frameworks */,
+				3E9DF72F2CE536B60055FBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "maga-diplom";
+			packageProductDependencies = (
+				3E9DF7492CE5371D0055FBA2 /* GoogleMaps */,
+				3E7D75B52D01693E0053D6A3 /* AlertKit */,
+			);
+			productName = "maga-diplom";
+			productReference = 3E9DF7312CE536B60055FBA2 /* maga-diplom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E9DF7292CE536B60055FBA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3E9DF7302CE536B60055FBA2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E9DF72C2CE536B60055FBA2 /* Build configuration list for PBXProject "maga-diplom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E9DF7282CE536B60055FBA2;
+			packageReferences = (
+				3E9DF7482CE5371D0055FBA2 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				3E7D75B42D01693E0053D6A3 /* XCRemoteSwiftPackageReference "AlertKit" */,
+			);
+			productRefGroup = 3E9DF7322CE536B60055FBA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E9DF7302CE536B60055FBA2 /* maga-diplom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E9DF72F2CE536B60055FBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9DF7412CE536B70055FBA2 /* LaunchScreen.storyboard in Resources */,
+				3E9DF73E2CE536B70055FBA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9DF72D2CE536B60055FBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7D75BF2D0171E80053D6A3 /* ClosableNavigationController.swift in Sources */,
+				3EAD5F542CEE83CB00A412B9 /* MainMenuView.swift in Sources */,
+				3E7D75B32D01191D0053D6A3 /* RouteViewControllerScenario.swift in Sources */,
+				3E9DF74C2CE53AB40055FBA2 /* ViewController.swift in Sources */,
+				3EAD5F622CEFC2C000A412B9 /* RouteViewController.swift in Sources */,
+				3E7D75AD2D00F5500053D6A3 /* DebugMenuViewController.swift in Sources */,
+				3E7D75C12D01753A0053D6A3 /* AdminCoordinator.swift in Sources */,
+				3EAD5F522CEE821200A412B9 /* SignView.swift in Sources */,
+				3E7D75AB2D00BB9E0053D6A3 /* RouteShowerViewController.swift in Sources */,
+				3E9DF7352CE536B60055FBA2 /* AppDelegate.swift in Sources */,
+				3EAD5F5A2CEE8B2000A412B9 /* SetPointViewController.swift in Sources */,
+				3E7D75B82D016A480053D6A3 /* ClientCoordinator.swift in Sources */,
+				3E7D75B12D0109FF0053D6A3 /* ManyPointsCoordinator.swift in Sources */,
+				3E7D75A52D00A31B0053D6A3 /* Coordinatable.swift in Sources */,
+				3EAD5F562CEE845500A412B9 /* RouteDataView.swift in Sources */,
+				3E7D75A72D00A34F0053D6A3 /* SetABCoordinator.swift in Sources */,
+				3E7D75BD2D016A950053D6A3 /* LoaderOverlayProvider.swift in Sources */,
+				3EAD5F682CF21B6E00A412B9 /* DashboardViewController.swift in Sources */,
+				3EB6CD222CF23A0B00997138 /* ViewControllerRepresentable.swift in Sources */,
+				3E9DF74E2CE679A40055FBA2 /* Constants.swift in Sources */,
+				3E7D75BC2D016A950053D6A3 /* LoaderOverlayView.swift in Sources */,
+				3E7D75AF2D0106570053D6A3 /* ManyPointsRouteShowerViewController.swift in Sources */,
+				3EAD5F582CEE8A5600A412B9 /* SpecialPointDataView.swift in Sources */,
+				3E7D75A92D00ADD70053D6A3 /* Scenario.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E9DF73F2CE536B70055FBA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9DF7402CE536B70055FBA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E9DF7432CE536B70055FBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E9DF7442CE536B70055FBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E9DF7462CE536B70055FBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R24W57U338;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "maga-diplom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeytery.maga-diplom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E9DF7472CE536B70055FBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R24W57U338;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "maga-diplom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeytery.maga-diplom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9DF72C2CE536B60055FBA2 /* Build configuration list for PBXProject "maga-diplom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9DF7432CE536B70055FBA2 /* Debug */,
+				3E9DF7442CE536B70055FBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9DF7452CE536B70055FBA2 /* Build configuration list for PBXNativeTarget "maga-diplom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9DF7462CE536B70055FBA2 /* Debug */,
+				3E9DF7472CE536B70055FBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E7D75B42D01693E0053D6A3 /* XCRemoteSwiftPackageReference "AlertKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/AlertKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.9;
+			};
+		};
+		3E9DF7482CE5371D0055FBA2 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E7D75B52D01693E0053D6A3 /* AlertKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E7D75B42D01693E0053D6A3 /* XCRemoteSwiftPackageReference "AlertKit" */;
+			productName = AlertKit;
+		};
+		3E9DF7492CE5371D0055FBA2 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E9DF7482CE5371D0055FBA2 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3E9DF7292CE536B60055FBA2 /* Project object */;
+}
